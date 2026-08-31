@@ -10,38 +10,23 @@
 <br>
 <br>
 
-# 1. Syllabus: 71101002001<a id='1'></a>
+# 1. Syllabus: <a id='1'></a>
 
-### UNIT 1: INTRODUCTION TO PROGRAMMING & C++ BASICS
+### UNIT 1: 
 
-Problem definition, Algorithm, and flow chart, Basic concepts of programming, Introduction to C++, OOP concepts; Class
-and Object, Encapsulation, Inheritance, polymorphism, abstraction, C++ syntax, structure of a program, comments, Variables,
-constants, data types, Operators and expressions (Arithmetic, Logical, Relational), Input/output using cin and cout.
 
-### UNIT 2: CONTROL FLOW AND ITERATION
+### UNIT 2: 
 
-Decision-Making Constructs: Introduction to conditional statements, if Statement: Syntax and flow, if-else Statement:
-Branching logic, Nested if Statements: Multi-level conditions, switch Case Statement: Multi-way decision making. Looping
-Constructs – Introduction and Use Cases, Concept and need for loops in programming, Entry-controlled and exit-controlled
-loops, for Loop, while Loop, do-while loop, Differences from while and for loops, Jumping Statements; break: Premature exit
-from loop/switch, continue: Skip current iteration, goto: Unconditional jump (use with caution and structure)
 
-### UNIT 3: ARRAYS, STRINGS, AND FUNCTIONS
+### UNIT 3: 
 
-Arrays: 1D and 2D, Discuss the matrix addition and multiplication, C++ string class vs C-style strings, String manipulation,
-Functions: declaration, definition, calling, Function overloading, default arguments, recursion, Passing arrays and strings to
-functions.
 
-### UNIT 4: STRUCTURES, CLASSES, AND POINTERS
+### UNIT 4: 
 
-Structures in C++, Object-Oriented Programming (OOP): classes and objects, constructors and destructors, Access specifiers,
-member functions, Introduction to pointers, pointer arithmetic, new and delete, pointers with arrays, pointers to objects.
 
-### UNIT 5: INHERITANCE AND FILE HANDLING
+### UNIT 5: 
 
-Understand the concept and purpose of inheritance, implement different types of inheritance in C++, and use access specifiers
-(public, protected, private) in inheritance, I/O streams: cin, cout, cerr, clog, File I/O: ifstream, ofstream, fstream, Creating,
-opening, reading, writing, and appending files, Searching and modifying file records, Error handling in file operations
+
 
 <br>
 <br>
@@ -143,18 +128,15 @@ opening, reading, writing, and appending files, Searching and modifying file rec
 
 # 6. Self study online reference<a id='6'></a>
 
-1. [An Introduction to Programming Through C++](https://onlinecourses.nptel.ac.in/noc21_cs38/preview)
 
 <br>
 <br>
 
 # 7. Assignment<a id='7'></a>
 
-1. [Assignment](https://github.com/joysmith/KU-UIT/blob/main/Problem%20Solving%20and%20Programming/assets/assignment/1_Project.md)
 
 <br>
 <br>
 
 # 8. Project<a id='8'></a>
 
-1. Project done by CSE-Cloud students [click me]()
