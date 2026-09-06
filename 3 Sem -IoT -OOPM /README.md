@@ -3,9 +3,8 @@
 3. [Books](#3)
 4. [Exercise](#4)
 5. [Sample question](#5)
-6. [Self study](#6)
-7. [Assignment](#7)
-8. [Project by Students](#8)
+6. [Assignment](#7)
+7. [Project by Students](#8)
 
 <br>
 <br>
@@ -64,11 +63,11 @@ Media, 7th Edition.
 <br>
 <br>
 
-# 6. Assignment<a id='7'></a>
+# 6. Assignment<a id='6'></a>
 
 
 <br>
 <br>
 
-# 7. Project<a id='8'></a>
+# 7. Project<a id='7'></a>
 
