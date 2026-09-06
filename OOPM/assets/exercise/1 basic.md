@@ -91,6 +91,9 @@
 
 ### 1. Getting Started with C++<a id="01"></a>
 
+<img src="notes/fancy calculator.png" width="700">
+
+
 ### 2. Introduction to C++<a id="02"></a>
 
 Application of C++:
