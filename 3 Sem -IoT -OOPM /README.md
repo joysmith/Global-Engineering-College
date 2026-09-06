@@ -52,7 +52,7 @@ Media, 7th Edition.
 
 # 4. Exercise<a id='4'></a>
 
-1. Exercise & Practice [click me](https://github.com/joysmith/Global-Engineering-College/blob/main/OOPM/assets/exercise/index.md)
+1. Exercise & Practice [click me](https://github.com/joysmith/Global-Engineering-College/blob/main/3%20Sem%20-IoT%20-OOPM%20/assets/exercise/index.md)
 
 <br>
 <br>
