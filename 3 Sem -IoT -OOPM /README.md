@@ -64,17 +64,11 @@ Media, 7th Edition.
 <br>
 <br>
 
-# 6. Self study online reference<a id='6'></a>
+# 6. Assignment<a id='7'></a>
 
 
 <br>
 <br>
 
-# 7. Assignment<a id='7'></a>
-
-
-<br>
-<br>
-
-# 8. Project<a id='8'></a>
+# 7. Project<a id='8'></a>
 
