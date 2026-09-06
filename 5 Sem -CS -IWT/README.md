@@ -58,22 +58,14 @@ databasebugs
 
 # 3. 📚 Books<a id='3'></a>
 
-### TEXTBOOK:
-
-1. Timothy Budd, “An Introduction to Object-Oriented Programming”, Addison-
-Wesley Publication, 3rd Edition.
-
-2. Cay S. Horstmann and Gary Cornell, “Core Java: Volume I, Fundamentals”,
-Prentice Hall publication.
-
 ### REFERENCES:
 
-1. G. Booch, “Object Oriented Analysis& Design”, Addison Wesley.
-2. James Martin, “Principles of Object Oriented Analysis and Design”, Prentice
-Hall/PTR.
-3. Peter Coad and Edward Yourdon, “Object Oriented Design”, Prentice Hall/PTR.
-4. Herbert Schildt, “Java 2: The Complete Reference”, McGraw-Hill Osborne
-Media, 7th Edition.
+1.Developing Web Applications, Ralph Moseley and M. T. Savaliya, Wiley-India
+2.Web Technologies, Black Book, dreamtech Press
+3.HTML 5, Black Book, dreamtech Press
+4.Web Design, Joel Sklar, Cengage Learning
+5.Developing Web Applications in PHP and AJAX, Harwani, McGrawHill
+6.Internet and World Wide Web How to program, P.J. Deitel & H.M. Deitel , Pearson
 
 <br>
 <br>
