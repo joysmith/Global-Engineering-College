@@ -58,7 +58,7 @@ Media, 7th Edition.
 
 # 5. Sample question<a id='5'></a>
 
-1. Download sample paper [click me]()
+<img src="./assets/images/Bloom.jpg" width="700">
 
 <br>
 <br>

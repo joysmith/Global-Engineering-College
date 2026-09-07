@@ -79,6 +79,9 @@ databasebugs
 
 # 5. Sample question<a id='5'></a>
 
+<img src="./assets/images/Bloom.jpg" width="700">
+
+
 1. Download sample paper [click me]()
 
 <br>
