@@ -3,8 +3,10 @@
 3. [Books](#3)
 4. [Exercise](#4)
 5. [Sample question](#5)
-6. [Assignment](#7)
-7. [Project by Students](#8)
+6. [Assignment](#6)
+7. [Project by Students](#7)
+8. [Cool Links](#8)
+
 
 <br>
 <br>
@@ -94,4 +96,9 @@ databasebugs
 <br>
 
 # 7. Project<a id='7'></a>
+
+
+# 8. Cool Links<a id='8'></a>
+
+1. [Way back machine](https://web.archive.org/)
 
