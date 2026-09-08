@@ -55,6 +55,23 @@ databasebugs
 # 2. 🧪 Lab<a id='2'></a>
 
 
+| Practical | Title | Major Concepts / Skills |
+| -------- | -------- | -------- |
+| 1| Designing a Personal Resume Webpage Using HTML | HTML5 structure, headings, paragraphs, lists, tables, images, hyperlinks |
+| 2| Creating a Multi-Section Resume with HTML Navigation | Hyperlinks, anchors, navigation menus, internal/external linking, semantic HTML |
+| 3 | Styling the Resume Using CSS | CSS syntax, selectors, colors, fonts, spacing, borders, backgrounds, box model |
+| 4 | Designing a Responsive Resume with CSS Navigation | Navigation styling, Flexbox, responsive layout, hover effects, media queries |
+| 5 | Adding Interactivity to the Resume Using JavaScript	Variables | functions, events, DOM basics, button interactions |
+| 6 | Implementing Dynamic Features Using JavaScript	Form validation | dynamic content, calculations, event handling, DOM manipulation |
+| 7 | Deploying and Publishing a Personal Website	Git/GitHub | repository creation, GitHub Pages, hosting, basic deployment workflow |
+| 8 | Building a GST Calculator Web Application Using PHP	PHP syntax | variables, forms, GET/POST, server-side calculation |
+| 9 | Developing a Server-Side Form and Processing User Data	PHP forms | validation, sessions, request handling, server-side processing |
+| 10 | Storing and Retrieving Web Data Using MySQL	MySQL database | tables, SQL, PHP-MySQL connectivity, INSERT/SELECT |
+| 11 | Developing a Database-Driven Web Application | CRUD operations, database integration, PHP + MySQL, dynamic webpages|
+| 12 | Mini Project: Developing and Deploying a Complete Web Application | HTML + CSS + JS + PHP + MySQL + GitHub/deployment|
+
+		
+
 <br>
 <br>
 
