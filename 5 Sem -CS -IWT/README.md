@@ -79,12 +79,12 @@ databasebugs
 
 ### REFERENCES:
 
-1.Developing Web Applications, Ralph Moseley and M. T. Savaliya, Wiley-India
-2.Web Technologies, Black Book, dreamtech Press
-3.HTML 5, Black Book, dreamtech Press
-4.Web Design, Joel Sklar, Cengage Learning
-5.Developing Web Applications in PHP and AJAX, Harwani, McGrawHill
-6.Internet and World Wide Web How to program, P.J. Deitel & H.M. Deitel , Pearson
+1. Developing Web Applications, Ralph Moseley and M. T. Savaliya, Wiley-India
+2. Web Technologies, Black Book, dreamtech Press
+3. HTML 5, Black Book, dreamtech Press
+4. Web Design, Joel Sklar, Cengage Learning
+5. Developing Web Applications in PHP and AJAX, Harwani, McGrawHill
+6. Internet and World Wide Web How to program, P.J. Deitel & H.M. Deitel , Pearson
 
 <br>
 <br>
