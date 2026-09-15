@@ -79,7 +79,7 @@
 </html>
 ```
 
-## 4. 
+## 4. Images, Forms
 
 ```html
 <!DOCTYPE html>
@@ -122,7 +122,7 @@
 ```
 
 
-## XHTML
+## 5. XHTML
 
 ```xhtml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -142,7 +142,7 @@
 ```
 
 
-## Meta Tags, Character Entities
+## 6. Meta Tags, Character Entities
 
 ```html
 
@@ -168,7 +168,7 @@
 ````
 
 
-## Frames and Frame Sets
+## 7. Frames and Frame Sets
 
 ```html
 <!DOCTYPE html>
@@ -184,7 +184,7 @@
 ```
 
 
-## Browser Architecture and Web Site Structure
+## 8. Browser Architecture and Web Site Structure
 
 ```html
 
@@ -212,7 +212,7 @@
 ```
 
 
-## Overview and Features of HTML5
+## 9. Overview and Features of HTML5
 
 ```html
 
