@@ -16,6 +16,8 @@
 </html>
 ```
 
+<br>
+<br>
 
 ## 2. Formatting and Fonts, Commenting Code, Color
 
@@ -33,6 +35,9 @@
 </body>
 </html>
 ```
+
+<br>
+<br>
 
 ## 3. Hyperlink, Lists, Tables
 
@@ -79,6 +84,9 @@
 </html>
 ```
 
+<br>
+<br>
+
 ## 4. Images, Forms
 
 ```html
@@ -121,6 +129,8 @@
 </html>
 ```
 
+<br>
+<br>
 
 ## 5. XHTML
 
@@ -141,6 +151,8 @@
 
 ```
 
+<br>
+<br>
 
 ## 6. Meta Tags, Character Entities
 
@@ -167,6 +179,8 @@
 
 ````
 
+<br>
+<br>
 
 ## 7. Frames and Frame Sets
 
@@ -183,6 +197,8 @@
 </html>
 ```
 
+<br>
+<br>
 
 ## 8. Browser Architecture and Web Site Structure
 
@@ -211,6 +227,8 @@
 </html>
 ```
 
+<br>
+<br>
 
 ## 9. Overview and Features of HTML5
 
