@@ -1,3 +1,8 @@
+# Documentation
+1. [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements)
+2. [W3School](https://www.w3schools.com/html/html_headings.asp)
+3. [Devdocs](https://devdocs.io/html/reference/elements/head)
+
 ## 1. Basics of HTML
 
 ```html
