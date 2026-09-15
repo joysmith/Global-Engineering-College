@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Sign Up Form</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            background-color: #e8eef5;
+        }
+
+        .container {
+            width: 400px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 25px;
+            border: 1px solid #ccc;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            width: 95%;
+            padding: 9px;
+            margin: 6px 0 12px 0;
+        }
+
+        input[type="checkbox"] {
+            width: auto;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: blue;
+        }
+
+        .error {
+            color: red;
+            font-size: 13px;
+        }
+
+        .success {
+            color: green;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <h1>Sign Up</h1>
+
+        <form onsubmit="validateForm(event)">
+
+            <!-- Full Name -->
+
+            <label>Full Name:</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your full name"
+            >
+
+            <p id="nameError" class="error"></p>
+
+
+            <!-- Email -->
+
+            <label>Email:</label>
+
+            <input
+                type="text"
+                id="email"
+                placeholder="Enter your email"
+            >
+
+            <p id="emailError" class="error"></p>
+
+
+            <!-- Mobile Number -->
+
+            <label>Mobile Number:</label>
+
+            <input
+                type="text"
+                id="mobile"
+                placeholder="Enter 10 digit mobile number"
+            >
+
+            <p id="mobileError" class="error"></p>
+
+
+            <!-- Password -->
+
+            <label>Password:</label>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter password"
+            >
+
+            <p id="passwordError" class="error"></p>
+
+
+            <!-- Confirm Password -->
+
+            <label>Confirm Password:</label>
+
+            <input
+                type="password"
+                id="confirmPassword"
+                placeholder="Re-enter password"
+            >
+
+            <p id="confirmPasswordError" class="error"></p>
+
+
+            <!-- Terms and Conditions -->
+
+            <input
+                type="checkbox"
+                id="terms"
+            >
+
+            I agree to the Terms and Conditions.
+
+            <p id="termsError" class="error"></p>
+
+
+            <!-- Submit Button -->
+
+            <button type="submit">
+                Create Account
+            </button>
+
+
+            <!-- Result -->
+
+            <p id="result"></p>
+
+        </form>
+
+    </div>
+
+
+    <script>
+
+        function validateForm(event) {
+
+            // Prevent normal form submission
+
+            event.preventDefault();
+
+
+            // Read values from form
+
+            let name =
+                document.getElementById("name")
+                .value.trim();
+
+            let email =
+                document.getElementById("email")
+                .value.trim();
+
+            let mobile =
+                document.getElementById("mobile")
+                .value.trim();
+
+            let password =
+                document.getElementById("password")
+                .value;
+
+            let confirmPassword =
+                document.getElementById("confirmPassword")
+                .value;
+
+            let terms =
+                document.getElementById("terms")
+                .checked;
+
+
+            // Get error message elements
+
+            let nameError =
+                document.getElementById("nameError");
+
+            let emailError =
+                document.getElementById("emailError");
+
+            let mobileError =
+                document.getElementById("mobileError");
+
+            let passwordError =
+                document.getElementById("passwordError");
+
+            let confirmPasswordError =
+                document.getElementById(
+                    "confirmPasswordError"
+                );
+
+            let termsError =
+                document.getElementById("termsError");
+
+            let result =
+                document.getElementById("result");
+
+
+            // Clear previous messages
+
+            nameError.innerHTML = "";
+            emailError.innerHTML = "";
+            mobileError.innerHTML = "";
+            passwordError.innerHTML = "";
+            confirmPasswordError.innerHTML = "";
+            termsError.innerHTML = "";
+            result.innerHTML = "";
+
+
+            // Assume form is valid
+
+            let valid = true;
+
+
+            // -------------------------
+            // Name Validation
+            // -------------------------
+
+            if (name == "") {
+
+                nameError.innerHTML =
+                    "Please enter your name.";
+
+                valid = false;
+
+            }
+
+            else if (name.length < 3) {
+
+                nameError.innerHTML =
+                    "Name must contain at least 3 characters.";
+
+                valid = false;
+
+            }
+
+
+            // -------------------------
+            // Email Validation
+            // -------------------------
+
+            let emailPattern =
+                /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+
+            if (email == "") {
+
+                emailError.innerHTML =
+                    "Please enter your email.";
+
+                valid = false;
+
+            }
+
+            else if (!emailPattern.test(email)) {
+
+                emailError.innerHTML =
+                    "Please enter a valid email address.";
+
+                valid = false;
+
+            }
+
+
+            // -------------------------
+            // Mobile Validation
+            // -------------------------
+
+            let mobilePattern =
+                /^[0-9]{10}$/;
+
+
+            if (mobile == "") {
+
+                mobileError.innerHTML =
+                    "Please enter your mobile number.";
+
+                valid = false;
+
+            }
+
+            else if (!mobilePattern.test(mobile)) {
+
+                mobileError.innerHTML =
+                    "Mobile number must contain 10 digits.";
+
+                valid = false;
+
+            }
+
+
+            // -------------------------
+            // Password Validation
+            // -------------------------
+
+            if (password == "") {
+
+                passwordError.innerHTML =
+                    "Please enter a password.";
+
+                valid = false;
+
+            }
+
+            else if (password.length < 8) {
+
+                passwordError.innerHTML =
+                    "Password must contain at least 8 characters.";
+
+                valid = false;
+
+            }
+
+
+            // -------------------------
+            // Confirm Password
+            // -------------------------
+
+            if (confirmPassword == "") {
+
+                confirmPasswordError.innerHTML =
+                    "Please confirm your password.";
+
+                valid = false;
+
+            }
+
+            else if (password != confirmPassword) {
+
+                confirmPasswordError.innerHTML =
+                    "Passwords do not match.";
+
+                valid = false;
+
+            }
+
+
+            // -------------------------
+            // Terms Validation
+            // -------------------------
+
+            if (!terms) {
+
+                termsError.innerHTML =
+                    "Please accept the Terms and Conditions.";
+
+                valid = false;
+
+            }
+
+
+            // -------------------------
+            // Final Result
+            // -------------------------
+
+            if (valid) {
+
+                result.innerHTML =
+                    "Account created successfully!";
+
+                result.className = "success";
+
+            }
+
+            else {
+
+                result.innerHTML =
+                    "Please correct the errors.";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>My Interactive Resume</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            background-color: lightgray;
+            margin: 0;
+        }
+
+        .resume {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        h2 {
+            color: darkblue;
+            border-bottom: 2px solid darkblue;
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        nav {
+            background-color: darkblue;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        button {
+            padding: 10px;
+            margin: 5px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: blue;
+        }
+
+        input,
+        textarea {
+            width: 95%;
+            padding: 8px;
+            margin: 5px 0;
+        }
+
+        #message,
+        #result,
+        #dateTime,
+        #formResult {
+            font-weight: bold;
+        }
+
+        .skill {
+            margin: 10px 0;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="resume">
+
+        <!-- Header -->
+
+        <h1>Joy Peter</h1>
+
+        <p style="text-align:center;">
+
+            Email: joy@gmail.com |
+            Phone: 1234567890
+
+        </p>
+
+
+        <!-- Navigation -->
+
+        <nav>
+
+            <a href="#about">About</a>
+
+            <a href="#education">Education</a>
+
+            <a href="#skills">Skills</a>
+
+            <a href="#projects">Projects</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+
+        <!-- About Section -->
+
+        <h2 id="about">About Me</h2>
+
+        <p id="aboutText">
+
+            I am a Computer Science Engineering student
+            interested in web development and programming.
+
+        </p>
+
+        <button onclick="showWelcome()">
+
+            Show Welcome Message
+
+        </button>
+
+        <p id="message"></p>
+
+
+        <!-- Education Section -->
+
+        <h2 id="education">Education</h2>
+
+        <table>
+
+            <tr>
+
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>Percentage</th>
+
+            </tr>
+
+            <tr>
+
+                <td>B.Tech CSE</td>
+                <td>Global Engineering College</td>
+                <td>2026</td>
+                <td>82%</td>
+
+            </tr>
+
+            <tr>
+
+                <td>12th</td>
+                <td>ABC School</td>
+                <td>2022</td>
+                <td>85%</td>
+
+            </tr>
+
+        </table>
+
+
+        <!-- Skills Section -->
+
+        <h2 id="skills">Skills</h2>
+
+        <div class="skill">
+
+            HTML -
+            <span id="htmlSkill">Beginner</span>
+
+        </div>
+
+        <div class="skill">
+
+            CSS -
+            <span id="cssSkill">Beginner</span>
+
+        </div>
+
+        <div class="skill">
+
+            JavaScript -
+            <span id="jsSkill">Beginner</span>
+
+        </div>
+
+        <button onclick="showSkills()">
+
+            Show Skill Level
+
+        </button>
+
+        <p id="result"></p>
+
+
+        <!-- Projects Section -->
+
+        <h2 id="projects">Projects</h2>
+
+        <h3>Personal Portfolio Website</h3>
+
+        <p>
+
+            Created a personal portfolio website
+            using HTML and CSS.
+
+        </p>
+
+        <h3>Student Management System</h3>
+
+        <p>
+
+            Created a basic student management system
+            using web technologies.
+
+        </p>
+
+
+        <!-- Date and Time -->
+
+        <h2>Current Date and Time</h2>
+
+        <button onclick="showDateTime()">
+
+            Show Date and Time
+
+        </button>
+
+        <p id="dateTime"></p>
+
+
+        <!-- Change Theme -->
+
+        <h2>Change Resume Theme</h2>
+
+        <button onclick="changeTheme()">
+
+            Change Background
+
+        </button>
+
+
+        <!-- Contact Section -->
+
+        <h2 id="contact">Contact Me</h2>
+
+        <form>
+
+            <label>Name:</label>
+
+            <input
+                type="text"
+                id="userName"
+                placeholder="Enter your name"
+            >
+
+            <br>
+
+            <label>Email:</label>
+
+            <input
+                type="text"
+                id="userEmail"
+                placeholder="Enter your email"
+            >
+
+            <br>
+
+            <label>Message:</label>
+
+            <textarea
+                id="userMessage"
+                rows="4"
+                placeholder="Enter your message"
+            ></textarea>
+
+            <br>
+
+            <button
+                type="button"
+                onclick="submitForm()"
+            >
+
+                Submit
+
+            </button>
+
+        </form>
+
+        <p id="formResult"></p>
+
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <script>
+
+        // JavaScript Variables
+
+        let name = "Joy Peter";
+
+        let course = "B.Tech CSE";
+
+        let college = "Global Engineering College";
+
+
+        // Function 1
+        // Display Welcome Message
+
+        function showWelcome() {
+
+            document.getElementById("message").innerHTML =
+                "Welcome " + name +
+                "! You are studying " + course +
+                " at " + college + ".";
+
+        }
+
+
+        // Function 2
+        // Display Skill Levels
+
+        function showSkills() {
+
+            document.getElementById("htmlSkill").innerHTML =
+                "Intermediate";
+
+            document.getElementById("cssSkill").innerHTML =
+                "Intermediate";
+
+            document.getElementById("jsSkill").innerHTML =
+                "Beginner";
+
+            document.getElementById("result").innerHTML =
+                "Skill levels have been updated.";
+
+        }
+
+
+        // Function 3
+        // Display Current Date and Time
+
+        function showDateTime() {
+
+            let currentDate = new Date();
+
+            document.getElementById("dateTime").innerHTML =
+                currentDate;
+
+        }
+
+
+        // Function 4
+        // Change Background Color
+
+        function changeTheme() {
+
+            document.body.style.backgroundColor =
+                "lightblue";
+
+        }
+
+
+        // Function 5
+        // Contact Form Validation
+
+        function submitForm() {
+
+            let userName =
+                document.getElementById("userName").value;
+
+            let userEmail =
+                document.getElementById("userEmail").value;
+
+            let userMessage =
+                document.getElementById("userMessage").value;
+
+
+            // Basic Validation
+
+            if (
+                userName == "" ||
+                userEmail == "" ||
+                userMessage == ""
+            ) {
+
+                document.getElementById("formResult").innerHTML =
+                    "Please fill all the fields.";
+
+            }
+
+            else {
+
+                document.getElementById("formResult").innerHTML =
+                    "Thank you " + userName +
+                    ". Your message has been received.";
+
+            }
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
