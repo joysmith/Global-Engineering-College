@@ -1,4 +1,13 @@
-# Setting Up the dev environment
+## Documentation
+1. [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements)
+2. [W3School](https://www.w3schools.com/html/html_headings.asp)
+3. [Devdocs](https://devdocs.io/html/reference/elements/head)
+
+<br>
+<br>
+
+
+## Setting Up the dev environment
 1. Download the [Vs code](https://code.visualstudio.com/download?_exp_download=fb315fc982)
 2. Vs code Extension
     - esbenp.prettier-vscode
@@ -9,17 +18,6 @@
     - ritwickdey.LiveServer
     - erikphansen.vscode-toggle-column-selection
     - file-icons
-
-
-<br>
-<br>
-
-
-# Documentation
-1. [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements)
-2. [W3School](https://www.w3schools.com/html/html_headings.asp)
-3. [Devdocs](https://devdocs.io/html/reference/elements/head)
-
 
 <br>
 <br>
