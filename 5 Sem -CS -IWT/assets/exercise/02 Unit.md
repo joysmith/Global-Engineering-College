@@ -72,6 +72,7 @@
 1. [How to use anchor tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 
 
+<br>
 
 ### Objective: Design a simple resume
 
