@@ -73,7 +73,10 @@
 
 
 
-Objective: Design a simple resume
+### Objective: Design a simple resume
+
+<img src="./images/Resume.png" width="900">
+
 
 <br>
 <br>
