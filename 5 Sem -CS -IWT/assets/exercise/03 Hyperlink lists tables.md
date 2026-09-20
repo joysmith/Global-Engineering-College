@@ -51,7 +51,14 @@
 </html>
 ```
 
+
 <br>
+
+
+### Objective: Design a simple resume
+
+<img src="./images/03 Hyperlink lists tables.png" width="900">
+
 <br>
 
 ## 4. Images, Forms
