@@ -48,7 +48,6 @@
 
     - [mdn](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
     - [w3s](https://www.w3schools.com/html/html_headings.asp)
-    - [dev](https://devdocs.io/html/element/heading_elements)
 
 1. [How to give break to lines](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br#:~:text=Technical%20summary-,%3A%20The%20Line%20Break%20element,division%20of%20lines%20is%20significant "mdn")
 
