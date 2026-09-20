@@ -7,7 +7,12 @@
   
   ### Topics
   1. [Html Basic](https://github.com/joysmith/Global-Engineering-College/blob/main/5%20Sem%20-CS%20-IWT/assets/exercise/01%20Basic%20of%20html.md)
-  2. 
+  2. [Formatting, fonts, commenting]()
+  3. [Hyperlink, lists, tables]()
+  4. [Images, Forms]()
+  5. [XHTML]()
+
+
 
 </details>
 
