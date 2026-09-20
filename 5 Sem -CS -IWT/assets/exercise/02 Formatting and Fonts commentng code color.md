@@ -26,7 +26,7 @@
 
 ### Objective: Design a simple resume
 
-<img src="./images/Resume.png" width="900">
+<img src="./images/02 Formatting and Fonts commentng code color.png" width="900">
 
 
 <br>
