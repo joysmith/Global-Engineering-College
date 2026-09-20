@@ -1,7 +1,9 @@
 ## Index
 
-### 1. [02 Chapter resource](https://github.com/joysmith/Global-Engineering-College/blob/main/3%20Sem%20-IoT%20-OOPM%20/assets/exercise/1%20basic.md)
+### 1. [02 Chapter resource](https://github.com/joysmith/Global-Engineering-College/blob/main/5%20Sem%20-CS%20-IWT/assets/exercise/02%20Unit.md)
 
-### 2. [Intermediate](https://github.com/joysmith/Global-Engineering-College/blob/main/3%20Sem%20-IoT%20-OOPM%20/assets/exercise/2%20Intermediate.md)
+### 2. [03 Chapter resource]()
 
-### 3. [Advanced](https://github.com/joysmith/Global-Engineering-College/blob/main/3%20Sem%20-IoT%20-OOPM%20/assets/exercise/3%20Advance.md) 
+### 3. [04 Chapter resource]() 
+
+### 3. [05 Chapter resource]() 

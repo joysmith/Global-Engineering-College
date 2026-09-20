@@ -91,7 +91,7 @@ databasebugs
 
 # 4. Exercise<a id='4'></a>
 
-1. Exercise & Practice [click me](https://github.com/joysmith/Global-Engineering-College/blob/main/5%20Sem%20-CS%20-IWT/assets/exercise/02%20Unit.md)
+1. Exercise & Practice [click me](https://github.com/joysmith/Global-Engineering-College/blob/main/5%20Sem%20-CS%20-IWT/assets/exercise/index.md)
 
 <br>
 <br>
