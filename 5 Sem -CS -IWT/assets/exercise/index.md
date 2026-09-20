@@ -1,6 +1,6 @@
 ## Index
 
-### 1. 02 Chapter resource
+### 02 Chapter resource
 
 <details>
   <summary>Click me</summary>
@@ -13,7 +13,7 @@
   ```
 </details>
 
-### 2. [03 Chapter resource]()
+### 03 Chapter resource
 
 <details>
   <summary>Click me</summary>
@@ -26,7 +26,7 @@
   ```
 </details>
 
-### 3. [04 Chapter resource]() 
+### 04 Chapter resource
 
 <details>
   <summary>Click me</summary>
@@ -39,7 +39,7 @@
   ```
 </details>
 
-### 3. [05 Chapter resource]() 
+### 05 Chapter resource
 <details>
   <summary>Click me</summary>
   
