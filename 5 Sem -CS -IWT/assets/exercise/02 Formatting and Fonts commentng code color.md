@@ -50,7 +50,7 @@
 ```
 <br>
 
-### Objective: Design a simple resume
+### Objective: Document formatting
 
 <img src="./images/02 Formatting and Fonts commentng code color.png" width="900">
 
