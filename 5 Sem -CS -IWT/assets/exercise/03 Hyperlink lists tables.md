@@ -3,6 +3,14 @@
 2. [W3School](https://www.w3schools.com/html/html_headings.asp)
 
 <br>
+
+1. [How to create table](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
+
+2. [How to create form](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+
+3. [What are the different input tag type attribute inside form tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+
+<br>
 <br>
 
 
