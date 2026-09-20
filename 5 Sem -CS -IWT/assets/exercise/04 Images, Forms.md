@@ -53,7 +53,7 @@
 
 ### Objective: Design Simple Student Academic Portal
 
-<img src="./images/03 Hyperlink lists tables.png" width="900">
+<img src="./images/04 Images, Forms.png" width="900">
 
 <br>
 
