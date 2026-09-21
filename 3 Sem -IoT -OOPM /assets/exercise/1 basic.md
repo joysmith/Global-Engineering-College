@@ -95,15 +95,10 @@
 
 
 
-| Header 1 | Header 2 |
+| Chip| Conceptual Grid |
 | --- | --- |
 | <img src="notes/CS50 course/RAM-1.png" width="700">| <img src="notes/CS50 course/RAM-2.png" width="700">|
 
-
-
-<img src="notes/CS50 course/RAM-1.png" width="700">
-
-<img src="notes/CS50 course/RAM-2.png" width="700">
 
 
 
