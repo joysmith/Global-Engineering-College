@@ -93,6 +93,11 @@
 
 <img src="notes/fancy calculator.png" width="700">
 
+<img src="notes/CS50 course/RAM-1.png" width="700">
+
+<img src="notes/CS50 course/RAM-2.png" width="700">
+
+
 
 ### 2. Introduction to C++<a id="02"></a>
 
