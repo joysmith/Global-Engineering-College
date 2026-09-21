@@ -1356,6 +1356,24 @@ We use comparison operator for comparing values
 
 boolean expression: a piece of code that produce boolean value
 
+
+The way to remember it: 
+
+```sh
+
+2 < 5
+^
+point → smaller number
+
+
+5 > 2
+      ^
+      point → smaller number
+
+< → small on the left
+> → small on the right
+```
+
 ```cpp
 #include <iostream>
 
