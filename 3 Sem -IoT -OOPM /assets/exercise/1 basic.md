@@ -131,6 +131,8 @@ To master C++ you need to master two things:
 - [Vs codespace online-cloud](https://codespaces.new/joysmith/Cpp-VS_codespace-online-editor-compiler)
 - [Eclipse](https://www.eclipse.org/downloads/)
 - [Programiz compiler online](https://www.programiz.com/cpp-programming/online-compiler/)
+
+##### Vs code local setup
 - [Vs code](https://code.visualstudio.com/download)
    
     - [Install msys2](https://www.msys2.org/)
