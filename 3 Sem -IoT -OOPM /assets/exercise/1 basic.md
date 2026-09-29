@@ -132,11 +132,11 @@ To master C++ you need to master two things:
 - [Eclipse](https://www.eclipse.org/downloads/)
 - [Vs code](https://code.visualstudio.com/download)
    
-      - [Install msys2](https://www.msys2.org/)
-      - Lets setup environment variable: Go to Search and type: Environment--> Environment variable--> Under System Variable: click on New -->Variable name: Path, Variable value: C:\msys64\ucrt64\bin --> Ok -->OK
-      - Open terminal and run "gcc --version"
-      - Turn off Smart App Control. This is the simplest fix if you want to keep using MSYS2. Go to Settings → Privacy & security → Windows Security → App & browser control → Smart App Control settings and select Off.
-      - In Vs-code install extension: C++, code runner
+    - [Install msys2](https://www.msys2.org/)
+    - Lets setup environment variable: Go to Search and type: Environment--> Environment variable--> Under System Variable: click on New -->Variable name: Path, Variable value: C:\msys64\ucrt64\bin --> Ok -->OK
+    - Open terminal and run "gcc --version"
+    - Turn off Smart App Control. This is the simplest fix if you want to keep using MSYS2. Go to Settings → Privacy & security → Windows Security → App & browser control → Smart App Control settings and select Off.
+    - In Vs-code install extension: C++, code runner
 
 Compiler for Vs-code
 
