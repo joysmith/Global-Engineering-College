@@ -1509,7 +1509,7 @@ int main() {
     int salary = 50'000;
 
 
-    bool isEligible = (age > 18 && age << 65) && (salary > 3000);
+    bool isEligible = (age > 18 && age < 65) && (salary > 3000);
 // bool isEligible = (age > 18 && age << 65) || (salary > 3000);
 
     cout << boolalpha << isEligible;
