@@ -131,6 +131,7 @@ To master C++ you need to master two things:
 - [Vs codespace online-cloud](https://codespaces.new/joysmith/Cpp-VS_codespace-online-editor-compiler)
 - [Eclipse](https://www.eclipse.org/downloads/)
 - [Vs code](https://code.visualstudio.com/download)
+   
       - [Install msys2](https://www.msys2.org/)
       - Lets setup environment variable: Go to Search and type: Environment--> Environment variable--> Under System Variable: click on New -->Variable name: Path, Variable value: C:\msys64\ucrt64\bin --> Ok -->OK
       - Open terminal and run "gcc --version"
