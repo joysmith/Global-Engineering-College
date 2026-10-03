@@ -998,6 +998,7 @@ unsigned char 1
 
 How to get maximum and minimum limit a data type can store
 
+Note: numeric_limits<> is a generic class, and lowest(), min(), max() are Generic class member function
 ```cpp
 #include <iostream>
 #include <limits>
