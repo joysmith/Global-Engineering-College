@@ -2460,6 +2460,8 @@ Hello Joy
 
 ### 43. Local vs Global Variables<a id="049"></a>
 
+Global variable are those that are declared outside of all function. including the main one
+
 ```cpp
 #include <iostream>
 using namespace std;
