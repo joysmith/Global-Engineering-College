@@ -1662,12 +1662,12 @@ int main() {
 
     short tuition = 0;
     bool isCitizen = true;
-    bool InResident = true;
+    bool gujResident = true;
 
     if(isCitizen){
 
         // inner/nested if statement
-        if(InResident)
+        if(gujResident)
             tuition = 0;
         else
             tuition = 1000;
