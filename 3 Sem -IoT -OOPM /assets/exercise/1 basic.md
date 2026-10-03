@@ -774,7 +774,7 @@ using namespace std;
 
 int main() {
 
-// brace initialized when empty, default value will be 0
+// without brace initialized, default value will be garbage value
     int variableName;
     cout << "Garbage value: "<< variableName << endl;
 
