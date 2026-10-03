@@ -773,6 +773,12 @@ int main() {
 using namespace std;
 
 int main() {
+
+// brace initialized when empty, default value will be 0
+    int variableName;
+    cout << "Garbage value: "<< variableName << endl;
+
+
 // brace initialized when empty, default value will be 0
     int number {};
 
