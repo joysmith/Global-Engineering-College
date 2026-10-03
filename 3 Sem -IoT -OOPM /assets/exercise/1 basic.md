@@ -2177,6 +2177,12 @@ Objectives
 - Local vs global variables
 - Organize functions in different files
 
+
+##### There are 3 varient of functions
+1. Function without input
+1. Function with input
+1. Function with output aka return type
+
 ### 39. Defining and Calling Functions<a id="045"></a>
 
 1. Function without input
@@ -2216,7 +2222,7 @@ difference b/w parameter vs argument
 #include <iostream>
 using namespace std;
 
-// when defining a function we  declare parameter
+// when defining a function we declare parameter
 void greet(string firstName, string lastName){
     cout << "Hello " << firstName << " " << lastName << endl;
 }
