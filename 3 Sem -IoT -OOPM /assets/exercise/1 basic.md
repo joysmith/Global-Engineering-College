@@ -1646,6 +1646,14 @@ Nice
 when we code one if statement in another if statement this is called nested if statements
 
 ```cpp
+// -----Rules-------
+// Indian Citizen
+//   Gujrat Resident: tuition = 0
+//   Non resident: tuition = 1000
+// Not an Indian Citizen
+//   tuition = 3000
+
+
 #include <iostream>
 
 using namespace std;
