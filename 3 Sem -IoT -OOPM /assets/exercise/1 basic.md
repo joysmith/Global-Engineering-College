@@ -1677,8 +1677,36 @@ int main() {
 
     return 0;
 }
+```
 
+2 Example
 
+```cpp
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    short tuition = 0;
+    bool isCitizen = true;
+    bool gujResident = true;
+
+// NOTE:  if(isCitizen == false) is equivalentor short form to if(!isCitizen)
+
+    if(isCitizen == false){
+        // inner/nested if statement
+        if(gujResident)
+            tuition = 0;
+        else
+            tuition = 1000;
+    }
+    else
+        tuition = 3000;
+
+    return 0;
+}
 
 ```
 
