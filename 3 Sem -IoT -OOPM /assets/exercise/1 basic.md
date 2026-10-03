@@ -2496,8 +2496,8 @@ int main() {
 
 1. We always define our function before main function
 1. In case we need to define our custom function after main function, then we declare the function before then main function.
-1. This tell the compiler there is function that exist and is somewhere else
-1. we tell compiler there is a greet function with datatype string, with name parameter, and it is somewhere else.
+1. The declared function tell the compiler there is function that exist and is somewhere else
+1. The declared function tell compiler there is a greet function with datatype string, with name parameter, and it is somewhere else.
 
 ```cpp
 #include <iostream>
