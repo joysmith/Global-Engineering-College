@@ -478,7 +478,7 @@ y: 20
 
 ### 8. Reading from the Console<a id="014"></a>
 
-">>" string extraction operator
+">>" stream extraction operator
 
 cin: reading data from console.
 
@@ -491,7 +491,7 @@ int main() {
     cout << "Enter a value: ";
     int value;
 
-// ">>" string extractor operator
+// ">>" stream extractor operator
 // reading data from console and putting it in value variable
     cin >> value;
 
@@ -539,7 +539,7 @@ sum is: 77
 
 ---
 
-Chaining string extraction operator
+Chaining stream extraction operator
 
 ```cpp
 #include <iostream>
@@ -550,7 +550,7 @@ int main() {
     double x;
     double y;
 
-// chaining string extraction operator
+// chaining stream extraction operator
     cin >> x >> y;
 
     cout << "sum is: " << x + y;
