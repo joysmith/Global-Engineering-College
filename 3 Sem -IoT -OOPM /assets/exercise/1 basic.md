@@ -1372,24 +1372,6 @@ We use comparison operator for comparing values
 
 boolean expression: a piece of code that produce boolean value
 
-
-The way to remember it: 
-
-```sh
-
-2 < 5
-^
-point → smaller number
-
-
-5 > 2
-      ^
-      point → smaller number
-
-< → small on the left
-> → small on the right
-```
-
 ```cpp
 #include <iostream>
 
@@ -1477,6 +1459,10 @@ false
 <img src="notes/logical.jpg" width="700">
 
 We use logical operator for combining two or more boolean expression for condition
+Think them as seprate independant boolean expression. 
+seprate bool expression: age > 18 || seprate bool expression: age << 65.
+
+The way to understand comparision operator is to read aloud in context like: age is less than 18. instead of no is less than no.
 
 ```cpp
 #include <iostream>
@@ -1488,6 +1474,8 @@ int main() {
     int age = 20;
     bool isEligible = age > 18 && age < 65;
 // bool isEligible = age > 18 || age << 65;
+// seprate bool expression: age > 18 || seprate bool expression: age << 65;
+
 
     cout << boolalpha << isEligible;
 // cout << boolalpha << !isEligible;
