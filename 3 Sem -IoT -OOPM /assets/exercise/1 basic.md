@@ -1169,7 +1169,7 @@ int main() {
 // dispaly character
     cout << ch << endl;
 
-// How to display ascii character code
+// How to display ascii character code, The + operator in front of ch ie "+ch" force compiler to give ascii code instead of character
     cout << +ch << endl;
 
 // ❌BAD practise: using ascii code for initialization
