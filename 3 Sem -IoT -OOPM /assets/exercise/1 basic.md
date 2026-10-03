@@ -1259,10 +1259,10 @@ int main()
     // print address of numbers array
     cout << numbers << endl;
 
-    // print element exist in index of 0
+    // print element exist in index of 0, this will give garbage value as we havent initailize any value
     cout << numbers[0] << endl;
 
-    // print element exist in index of 1
+    // print element exist in index of 1, this will give garbage value as we havent initailize any value
     cout << numbers[1] << endl;
 
     // how to change value of array
