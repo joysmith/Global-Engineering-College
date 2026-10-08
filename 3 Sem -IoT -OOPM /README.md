@@ -11,11 +11,28 @@
 
 # 1. Syllabus: <a id='1'></a>
 
-1. Introduction to Object Oriented Thinking & Object Oriented Programming: Comparison with Procedural Programming, features of Object oriented paradigm– Merits and demerits of OO methodology; Object model; Elements of OOPS, IO processing.
-2. Encapsulation and Data Abstraction- Concept of Objects: State, Behavior & Identity of an object; Classes: identifying classes and candidates for Classes Attributes and Services, Access modifiers, Static members of a Class, Instances, Message passing, and Construction and destruction of Objects.
-3. Relationships – Inheritance: purpose and its types, ‘is a’ relationship; Association, Aggregation. Concept of interfaces and Abstract classes.
-4. Polymorphism: Introduction, Method Overriding & Overloading, static and run time Polymorphism.
-5. Strings, Exceptional handling, Introduction of Multi-threading and Data collections. Case study like: ATM, Library management system.
+IS305 Object Oriented Programming & Methodology
+
+1. Introduction to Object Oriented Thinking & Object Oriented Programming:
+Comparison with Procedural Programming, features of Object oriented
+paradigm– Merits and demerits of OO methodology; Object model; Elements of
+OOPS, IO processing, Data Type, Type Conversion, Control Statement, Loops,
+Arrays.
+
+2. Encapsulation and Data Abstraction- Concept of Objects: State, Behavior &
+Identity of an object; Classes: identifying classes and candidates for Classes
+Attributes and Services, Access modifiers, Static members of a Class, Instances,
+Message passing, and Construction and destruction of Objects.
+
+3. Relationships – Inheritance: purpose and its types, ‘is a’ relationship; Association,
+Aggregation. Concept of interfaces and Abstract classes.
+
+4. Polymorphism: Introduction, Method Overriding & Overloading, static and run
+time Polymorphism. Virtual Function, friend function, Static function, friend
+class.
+
+5. Strings, Exceptional handling, Introduction of Multi-threading and Data
+collections. Case study like: ATM, Library management system.
 
 
 <br>
