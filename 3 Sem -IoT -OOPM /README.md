@@ -11,7 +11,7 @@
 
 # 1. Syllabus: <a id='1'></a>
 
-IS305 Object Oriented Programming & Methodology
+#### IS305 Object Oriented Programming & Methodology
 
 1. Introduction to Object Oriented Thinking & Object Oriented Programming:
 Comparison with Procedural Programming, features of Object oriented
