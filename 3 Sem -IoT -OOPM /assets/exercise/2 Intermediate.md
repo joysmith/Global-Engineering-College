@@ -648,6 +648,7 @@ void printNumbers(int numbers[]){
 
 int main(){
     // the numbers-array technically is a pointer that points to 1 element of array
+    // What is a pointer: a special variable that store address of a variable
     int numbers[] = {10,20,30};
     // passing integer array
     printNumbers(numbers);
