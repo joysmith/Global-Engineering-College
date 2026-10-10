@@ -793,16 +793,19 @@ Heap or free store memory:
 
 Allocating array on heap
 
+<img src="notes/stack-vs-heap.gif" width="700">
+
+
 ```cpp
 #include <iostream>
 using namespace std;
 
 int main(){
-    // Stack memory(Automatic clean uo)
+    // Stack memory(Automatic clean up)
     // int numbers[1000];
 
 
-    // Heap memory(free store)(Manual clean uo)
+    // Heap memory(free store)(Manual clean up)
     // allocating array on heap
     int* numbers = new int[10];
 
