@@ -402,7 +402,13 @@ int main(){
 
     // how to declare integer pointer and store address
     // read: give me the address of number variable
+    // Approach 1: right way
     int* ptr = &number;
+
+    // Appraoch 2: confusing way, bad practice. Note: This bring confusion wheather we are doing dereference, or declaring this special variable that store address
+    // int *ptr = &number;
+
+
 
     // how to access data at target memory location, using indirection/de-reference operator
     cout << *ptr << endl;
