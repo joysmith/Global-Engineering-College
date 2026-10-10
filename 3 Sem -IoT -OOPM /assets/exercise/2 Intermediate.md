@@ -653,7 +653,7 @@ int main(){
     // passing integer array
     printNumbers(numbers);
 
-    // Approach: how to access element of array
+    // Approach: how to access element/value of array using, * dereferencing operator or indirection operator
     cout << *numbers << endl;
     cout << numbers[0] ;
 
