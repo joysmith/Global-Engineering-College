@@ -405,7 +405,8 @@ int main(){
     // Approach 1: right way
     int* ptr = &number;
 
-    // Appraoch 2: confusing way, bad practice. Note: This bring confusion wheather we are doing dereference, or declaring this special variable that store address
+    // Appraoch 2: confusing way, bad practice. 
+    // Note: This bring confusion wheather we are doing dereference, or declaring this special variable that store address
     // int *ptr = &number;
 
 
