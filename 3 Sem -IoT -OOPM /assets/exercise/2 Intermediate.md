@@ -323,6 +323,7 @@ using namespace std;
 
 int main(){
 
+  // lets pretend we are saving 3-axis coordinates
   int values[3] = {10, 20, 30};
 
   // C++ : structured binding
