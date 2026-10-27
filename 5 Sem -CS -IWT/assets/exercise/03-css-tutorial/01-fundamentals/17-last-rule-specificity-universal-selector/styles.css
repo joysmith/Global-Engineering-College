@@ -1,0 +1,25 @@
+/* Last Rule and Specificity * Universal Selector */
+/* Specificity rule: #id, .class, element, *universal selector */
+.special {
+  color: green;
+}
+
+p {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+#heading {
+  color: red;
+}
+.heading {
+  color: green;
+}
+
+/* how to use universal selector to reset/override default browser style */
+* {
+  color: brown;
+}

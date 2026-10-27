@@ -1,0 +1,18 @@
+/* class & id SELECTORS */
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+  background: black;
+}
+
+#title {
+  font-size: 50px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
