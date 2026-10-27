@@ -3,7 +3,7 @@
 | 53. [CSS Intro](#53)         | 63. [Grouping Selectors](#63)                            |
 | 54. [Workspace Setup](#54)   | 64. [ID Selectors](#64)                                  |
 | 55. [Text Editor Setup](#55) | 65. [Class Selectors](#65)                               |
-| 56. [Video Resources](#56)   | 66. [ID and Class Selector Summary](#66)                 |
+| 56.   | 66. [ID and Class Selector Summary](#66)                 |
 | 57. [Inline CSS](#57)        | 67. [DIV and SPAN Elements](#67)                         |
 | 58. [Internal CSS](#58)      | 68. [Inheritance in CSS](#68)                            |
 | 59. [External CSS](#59)      | 69. [Inheritance - More Info](#69)                       |
@@ -65,7 +65,6 @@
 
 <br>
 
-### 56. Video Resources<a id="56"></a>
 
 <br>
 
