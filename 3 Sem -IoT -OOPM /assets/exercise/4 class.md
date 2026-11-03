@@ -209,7 +209,7 @@ public:
         width = mwidth;
         return 2 * (length + width);
     }
-    
+
 };
 
 int main() {
@@ -223,14 +223,14 @@ int main() {
     area = r.getArea(l, w);
     perimeter = r.getPerimeter(l, w);
 
-    cout << "area of rect" << area << endl;
-    cout << "perimeter of rect" << perimeter << endl;
+    cout << "area of rect " << area << endl;
+    cout << "perimeter of rect " << perimeter << endl;
 
     return 0;
 }
 
 // Enter length of rectangle: 4
 // Enter width of rectangle: 5
-// 20
-// 18
+// area of rect 20
+// perimeter of rect 18
 ```
