@@ -176,3 +176,75 @@ int main() {
     return 0;
 }
 ```
+
+
+<br>
+<br>
+
+
+
+#### Area of rect and perimeter
+```cpp
+#include <iostream>
+using namespace std;
+
+class Rectangle {
+private:
+    double length;
+    double width;
+
+public:
+    // Default constructor
+    Rectangle() {
+        length = 0;
+        width = 0;
+    }
+
+    // Parameterized constructor
+    Rectangle(double mlength, double mwidth) {
+        length = mlength;
+        width = mwidth;
+    }
+
+    // Setter to read dimensions from the user
+    void setDimensions(double mlength, double mwidth) {
+        length = mlength;
+        width = mwidth;
+    }
+
+    // Area = length x width
+    double getArea(double mlength, double mwidth) {
+        return length * width;
+    }
+
+
+    // Perimeter = 2 x (length + width)
+    double getPerimeter(double mlength, double mwidth) {
+        return 2 * (length + width);
+    }
+
+    void display() {
+        double area = getArea(length, width);
+        double perimeter = getPerimeter(length, width);
+
+        cout << "Area      : " << area << endl;
+        cout << "Perimeter : " << perimeter << endl;
+    }
+};
+
+int main() {
+    double l, w;
+    cout << "Enter length of rectangle: ";
+    cin >> l;
+    cout << "Enter width of rectangle: ";
+    cin >> w;
+
+    Rectangle r;
+    r.setDimensions(l, w);
+
+    cout << "\n--- Rectangle Details ---" << endl;
+    r.display();
+
+    return 0;
+}
+```
