@@ -223,9 +223,14 @@ int main() {
     area = r.getArea(l, w);
     perimeter = r.getPerimeter(l, w);
 
-    cout << area << endl;
-    cout << perimeter << endl;
+    cout << "area of rect" << area << endl;
+    cout << "area of rect" << perimeter << endl;
 
     return 0;
 }
+
+// Enter length of rectangle: 4
+// Enter width of rectangle: 5
+// 20
+// 18
 ```
