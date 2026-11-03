@@ -224,7 +224,7 @@ int main() {
     perimeter = r.getPerimeter(l, w);
 
     cout << "area of rect" << area << endl;
-    cout << "area of rect" << perimeter << endl;
+    cout << "perimeter of rect" << perimeter << endl;
 
     return 0;
 }
