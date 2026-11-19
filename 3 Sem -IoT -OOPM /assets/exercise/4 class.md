@@ -234,3 +234,47 @@ int main() {
 // area of rect 20
 // perimeter of rect 18
 ```
+
+
+### Inheritance
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+class Pen {
+protected:
+    int price;
+public:
+    void showBasePen() {
+        cout << "Base Class" << endl;
+    }
+};
+
+class MagicPen : public Pen {   // single inheritance
+public:
+    void showMagicPen() {
+        cout << "Derived Class" << endl;
+    }
+
+    void setPrice(int p) {
+        price = p;       // allowed: derived class can use protected member
+    }
+
+    void showPrice() {
+        cout << "Price: " << price << endl;
+    }
+};
+
+int main() {
+    MagicPen obj;
+    obj.showBasePen();
+    obj.showMagicPen();
+    obj.setPrice(100);   // instead of obj.price = 100;
+    obj.showPrice();
+    return 0;
+}
+
+
+```
