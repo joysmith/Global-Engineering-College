@@ -5,7 +5,7 @@
 | 16. [Inline Javascript](#16)             | 37. [Arrays](#37)                            |
 | 17. [Internal Javascript](#17)           | 38. [Array Challenge](#38)                   |
 | 18. [External Javascript](#18)           | 39. [Functions - Declare, Invoke](#39)       |
-| 19. [Cleanup Workspace](#19)             | 40. [Functions - Parameters, Arguments](#40) |
+|           | 40. [Functions - Parameters, Arguments](#40) |
 | 20. [Helper Methods](#20)                | 41. [Functions - Return](#41)                |
 | 21. [Statements and Comments](#21)       | 42. [Function Expressions](#42)              |
 | 22. [Variables](#22)                     | 43. [Function Challenge](#43)                |
@@ -168,10 +168,6 @@
           });
         });
 ```
-
-<br>
-
-## 19. Cleanup Workspace <a id='19'></a>
 
 <br>
 
