@@ -913,7 +913,7 @@ console.log(order1, order2, order3);
 
 ## 44. Objects <a id='44'></a>
 
-- index.html (same template id=20)
+- index.html
 - app.js
 
 ```js
@@ -923,14 +923,14 @@ console.log(order1, order2, order3);
 
 const person = {
   // PROPERTY_NAME: PROPERTY
-  name: "john",
-  lastName: "peters",
-  age: 25,
-  education: false,
-  married: true,
-  siblings: ["anna", "susan", "peter"],
+  name: "joy",
+  lastName: "peter",
+  age: 45,
+  education: true,
+  married: false,
+  siblings: ["jerry", "Ishan", "Shristi"],
   greeting() {
-    console.log("Hello my name is JOHN");
+    console.log("Hello my name is JOY");
   },
 };
 
