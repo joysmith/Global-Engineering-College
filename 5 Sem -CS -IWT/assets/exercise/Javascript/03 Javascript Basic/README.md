@@ -777,7 +777,7 @@ hello();
 
 ## 40. Functions - Parameters, Arguments <a id='40'></a>
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
@@ -787,9 +787,9 @@ hello();
 // arguments - when invoke/call/run
 // use vars/values, multiple params, undefined
 
-const bob = "Bob";
-const susy = "Susy";
-const anna = "Anna";
+const joy = "Joy";
+const jerry = "Jerry";
+const arpit = "Arpit";
 
 // we haven't use let, const, var in front of name-variable in fun
 function greet(name) {
