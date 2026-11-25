@@ -796,19 +796,19 @@ function greet(name) {
   console.log("Hello there " + name);
 }
 
-// greet bob
+// greet joy
 greet(4);
-// greet anna
-greet(anna);
-// greet susy
-greet("Susy");
+// greet jerry
+greet(jerry);
+// greet Abhishek
+greet("Abhishek");
 ```
 
 <br>
 
 ## 41. Functions - Return <a id='41'></a>
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
