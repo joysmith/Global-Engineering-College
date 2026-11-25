@@ -1,7 +1,7 @@
 | Index                                    | Index                                        |
 | ---------------------------------------- | -------------------------------------------- |
-| 14. [Basics Intro](#14)                  | 35. [Implicit Type Conversion](#35)          |
-| 15. [Basic Project](#15)                 | 36. [Data Types](#36)                        |
+|                 | 35. [Implicit Type Conversion](#35)          |
+|               | 36. [Data Types](#36)                        |
 | 16. [Inline Javascript](#16)             | 37. [Arrays](#37)                            |
 | 17. [Internal Javascript](#17)           | 38. [Array Challenge](#38)                   |
 | 18. [External Javascript](#18)           | 39. [Functions - Declare, Invoke](#39)       |
@@ -26,13 +26,6 @@
 
 <br>
 
-## 14. Basics Intro <a id='14'></a>
-
-<br>
-
-## 15. Basic Project <a id='15'></a>
-
-<br>
 
 ## 16. Inline Javascript <a id='16'></a>
 
