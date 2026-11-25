@@ -996,7 +996,7 @@ car.stop();
 
 ## 46. Conditional Statements - Basics <a id='46'></a>
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
@@ -1018,7 +1018,7 @@ if (value2) {
 
 ## 47. Conditional Statements Continued <a id='47'></a>
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
@@ -1052,7 +1052,7 @@ if (!value) {
 
 ## 48. Equality <a id='48'></a>
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
@@ -1079,7 +1079,7 @@ console.log(value2);
 
 ## 49. Logical Operators <a id='49'></a>
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
@@ -1089,7 +1089,7 @@ console.log(value2);
 const name = "peter";
 const age = 24;
 
-if (name !== "bob" && age === 24) {
+if (name !== "jerry" && age === 24) {
   console.log("hello there user");
 } else {
   console.log("wrong values");
@@ -1100,7 +1100,7 @@ if (name !== "bob" && age === 24) {
 
 ## 50. Switch Statement <a id='50'></a>
 
-- index.html (same template id=20)
+- index.html
 - app.js
 
 ```js
@@ -1163,7 +1163,7 @@ Conditional Statements #7
 
 ---
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
