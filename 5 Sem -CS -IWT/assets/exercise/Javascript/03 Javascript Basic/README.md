@@ -1168,13 +1168,13 @@ Conditional Statements #7
 
 ```js
 const person1 = {
-  name: "susan",
+  name: "joy",
   age: 25,
   status: "resident",
 };
 
 const person2 = {
-  name: "bobo",
+  name: "jerry",
   age: 30,
   status: "tourist",
 };
