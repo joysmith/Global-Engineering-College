@@ -939,7 +939,7 @@ const age = person.age;
 console.log(age);
 
 // How to modify name of person-obj
-person.name = "bob";
+person.name = "Alisha";
 console.log(person.name);
 
 // How to access person-obj array
