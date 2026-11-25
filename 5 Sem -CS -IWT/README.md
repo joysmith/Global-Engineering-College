@@ -93,7 +93,7 @@ databasebugs
 
 1. Exercise & Practice [click me](https://github.com/joysmith/Global-Engineering-College/blob/main/5%20Sem%20-CS%20-IWT/assets/exercise/index.md)
 1. [CSS](https://github.com/joysmith/Global-Engineering-College/tree/main/5%20Sem%20-CS%20-IWT/assets/exercise/03-css-tutorial/01-fundamentals) 
-
+1. [Java](https://github.com/joysmith/Global-Engineering-College/tree/main/5%20Sem%20-CS%20-IWT/assets/exercise/Javascript/03%20Javascript%20Basic#16)
 <br>
 <br>
 
