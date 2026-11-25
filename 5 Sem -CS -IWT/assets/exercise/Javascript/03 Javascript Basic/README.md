@@ -75,11 +75,14 @@
 
     <!-- How to internal inject js in html page  -->
     <script>
-      document.querySelectorAll(".btn").forEach((item) => {
-        item.addEventListener("click", () => {
-          alert("this is good ");
+        // Select every element on the page that has the class "btn"
+        document.querySelectorAll(".btn").forEach((item) => {
+          // Attach a click event listener to each button
+          item.addEventListener("click", () => {
+            // Show a popup alert when the button is clicked
+            alert("this is good ");
+          });
         });
-      });
     </script>
   </body>
 </html>
