@@ -840,7 +840,7 @@ console.log(dimensions);
 
 ## 42. Function Expressions <a id='42'></a>
 
-- index.html (same template id=20)
+- index.html
 - app.js
 
 ```js
