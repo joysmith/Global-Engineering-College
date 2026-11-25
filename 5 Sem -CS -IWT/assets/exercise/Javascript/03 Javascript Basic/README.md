@@ -647,7 +647,7 @@ document.querySelector(".form").addEventListener("submit", function (e) {
 
 ## 36. Data Types <a id='36'></a>
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
@@ -689,7 +689,7 @@ console.log(typeof name);
 
 ## 37. Arrays <a id='37'></a>
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
@@ -697,12 +697,12 @@ console.log(typeof name);
 // Arrays - [], 0 index based
 
 // old way
-const friend1 = "anna";
-const friend2 = "anna";
-const friend3 = "anna";
-const friend4 = "anna";
+const friend1 = "joy";
+const friend2 = "joy";
+const friend3 = "joy";
+const friend4 = "joy";
 
-const friends = ["john", "peter", "bob", "susy", 45, undefined, null];
+const friends = ["joy", "peter", "Arpit", "Abhishek", 45, undefined, null];
 
 // accessing array
 let bestFriend = friends[2];
