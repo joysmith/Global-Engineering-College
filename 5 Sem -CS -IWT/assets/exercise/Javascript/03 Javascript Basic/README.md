@@ -734,7 +734,7 @@ Arrays #4
 
 ---
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
@@ -749,7 +749,7 @@ console.log(firstFruit, fruits);
 
 ## 39. Functions - Declare, Invoke <a id='39'></a>
 
-- index.html (same template id=20)
+- index.html
 - app.js
 
 ```js
