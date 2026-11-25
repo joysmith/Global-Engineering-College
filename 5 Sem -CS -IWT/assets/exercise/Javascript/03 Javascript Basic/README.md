@@ -444,6 +444,7 @@ console.log(fullMailingAddress);
 <br>
 
 ## 32. Numbers Basics <a id='32'></a>
+Other option: Chrome --> inspect--> source--> snippet--> app.js(rename file)
 
 - index.html
 - app.js
