@@ -75,7 +75,7 @@
 
     <!-- How to internal inject js in html page  -->
     <script>
-        // Select every element on the page that has the class "btn"
+          // Select every element on the page that has the class "btn"
         document.querySelectorAll(".btn").forEach((item) => {
           // Attach a click event listener to each button
           item.addEventListener("click", () => {
@@ -159,11 +159,14 @@
 - app.js
 
 ```js
-document.querySelectorAll(".btn").forEach((item) => {
-  item.addEventListener("click", () => {
-    alert("I will affect index.html, about.html alert-content from here only ");
-  });
-});
+          // Select every element on the page that has the class "btn"
+        document.querySelectorAll(".btn").forEach((item) => {
+          // Attach a click event listener to each button
+          item.addEventListener("click", () => {
+            // Show a popup alert when the button is clicked
+            alert("this is good ");
+          });
+        });
 ```
 
 <br>
