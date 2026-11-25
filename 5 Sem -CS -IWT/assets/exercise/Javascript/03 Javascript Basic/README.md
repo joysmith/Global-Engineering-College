@@ -12,9 +12,9 @@
 | 23. [Assign Variable Value Later](#23)   | 44. [Objects](#44)                           |
 | 24. [Variable Naming Rules](#24)         | 45. [Object Challenge](#45)                  |
 | 25. [const, let, var](#25)               | 46. [Conditional Statements - Basics](#46)   |
-| 26. [Challenges Intro](#26)              | 47. [Conditional Statements Continued](#47)  |
+|            | 47. [Conditional Statements Continued](#47)  |
 | 27. [Variables Challange](#27)           | 48. [Equality](#48)                          |
-| 28. [Prettier Settings](#28)             | 49. [Logical Operators](#49)                 |
+|             | 49. [Logical Operators](#49)                 |
 | 29. [Quotation Marks](#29)               | 50. [Switch Statement](#50)                  |
 | 30. [String Concatenation](#30)          | 51. [Conditionals Challenge](#51)            |
 | 31. [String Concat Challenge](#31)       | 52. [while Loops](#52)                       |
@@ -211,7 +211,7 @@ console.log("hello world");
 
 ## 21. Statements and Comments <a id='21'></a>
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
@@ -226,9 +226,9 @@ console.log("hello people");
 
 /*
 console.log("hello people");
-console.log("hello my friend bob");
-console.log("hello susan");
-document.write("hello anna");
+console.log("hello my friend joy");
+console.log("hello IWT");
+document.write("hello CSE");
 */
 ```
 
@@ -236,8 +236,7 @@ document.write("hello anna");
 
 ## 22. Variables <a id='22'></a>
 
-- index.html (same template id=20)
-- app.js
+- index.html 
 
 ```js
 // Variable feature - Most Basic Building Block
@@ -245,7 +244,7 @@ document.write("hello anna");
 // Declare, Assignment Operator, Assign Value
 
 // variable declaration, assign value by using assingment operator
-let name = "john shrimp taco VI";
+let name = "My name is Joy";
 
 // access variable
 console.log(name);
@@ -266,7 +265,7 @@ console.log(name);
 
 ## 23. Assign Variable Value Later <a id='23'></a>
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
@@ -275,17 +274,17 @@ console.log(name);
 // Declare, Assignment Operator, Assign Value
 // assign value later, modify existing
 
-let name = "john shrimp taco VI";
+let name = "joy peter";
 
 // declaring variable assinging later
 let address, zip, state;
-address = "101 main street";
-zip = "60612";
-state = "CA";
+address = "xyz main street";
+zip = "482030";
+state = "MP";
 console.log(address, zip, state);
 
 // modifying variable
-name = "fish burrito ";
+name = "Saurab Verma Sir";
 
 console.log(name);
 ```
@@ -294,12 +293,12 @@ console.log(name);
 
 ## 24. Variable Naming Rules <a id='24'></a>
 
-- index.html (same template id=20)
+- index.html 
 - app.js
 
 ```js
-// can contain digits, letters, underscore, $
-// must start with letter, $ or _
+// can contain digits, letters, underscore, 
+// must start with letter,
 
 // no keyword
 // cannot start with number
@@ -316,8 +315,12 @@ console.log(full_name);
 
 ## 25. const, let, var <a id='25'></a>
 
-- index.html (same template id=20)
-- app.js
+#### Scope
+
+- var is function-scoped. It's visible throughout the whole function it's in.
+- let is block-scoped. It only exists inside the { } it was declared in.
+
+- index.html 
 
 ```js
 // LET VS CONST VS VAR
@@ -326,7 +329,7 @@ console.log(full_name);
 var value = "some value";
 value = "some other value";
 // using let
-let name = "john";
+let name = "joy";
 name = "peter";
 // using const (CONSTANT) - can't re-assign
 const lastName = "smith";
@@ -338,7 +341,6 @@ console.log(lastName);
 
   <br>
 
-## 26. Challenges Intro <a id='26'></a>
 
 <br>
 
@@ -360,8 +362,8 @@ Variables #1
 - app.js
 
 ```js
-const firstName = "john";
-const last_name = "smilga";
+const firstName = "joy";
+const last_name = "peter";
 
 let address = "main street";
 address = "first street";
@@ -371,9 +373,6 @@ console.log(firstName, last_name, address);
 
 <br>
 
-## 28. Prettier Settings <a id='28'></a>
-
-<br>
 
 ## 29. Quotation Marks <a id='29'></a>
 
@@ -391,7 +390,7 @@ console.log(name);
 
 ## 30. String Concatenation <a id='30'></a>
 
-- index.html (same template id=20)
+- index.html 
 - app.js
   - uncomment websites name to visit diff site from dev-console
 
@@ -399,8 +398,8 @@ console.log(name);
 // String Concatenation - combine string values
 // `` - backticks (template strings) easier option.
 
-// const name = 'john';
-// const lastName = 'shakeandbake';
+// const name = 'joy';
+// const lastName = 'peter';
 // let fullName = name + ' ' + lastName;
 
 // console.log('Hello there your full name is : ' + fullName);
@@ -436,7 +435,7 @@ Concatenate Strings #2
 
 ```js
 const street = "main street";
-const country = "USA";
+const country = "India";
 
 const fullMailingAddress = street + " " + country;
 console.log(fullMailingAddress);
@@ -446,7 +445,7 @@ console.log(fullMailingAddress);
 
 ## 32. Numbers Basics <a id='32'></a>
 
-- index.html (same template id=20)
+- index.html
 - app.js
 
 ```js
